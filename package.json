@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "test": "mocha",
+    "test": "jest",
     "install-deps": "npm install",
     "test-app": "npm run install-deps && npm test",
     "run-app": "npm run install-deps && npm start",
@@ -21,6 +21,7 @@
   },
   "devDependencies": {
     "chai": "^5.1.1",
+    "jest": "^29.7.0",
     "mocha": "^10.4.0",
     "supertest": "^7.0.0"
   }
