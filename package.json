@@ -1,0 +1,27 @@
+{
+  "name": "user-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha",
+    "install-deps": "npm install",
+    "test-app": "npm run install-deps && npm test",
+    "run-app": "npm run install-deps && npm start",
+    "pipeline": "npm run install-deps && npm test && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  }
+}
